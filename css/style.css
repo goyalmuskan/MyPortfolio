@@ -314,13 +314,15 @@ section{
 
 .about-heading{
     padding-top: 25%;
-    font-size: 7.5em;
-    font-weight: bolder;
+    font-size: 6em;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
 }
 
 #about h2{
-    font-size: 4em;
-    font-weight: bolder;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
 }
 
 #about .hello p{
@@ -426,6 +428,16 @@ section{
 #skills h1{
     margin-top: 50px;
     text-align: center;
-    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
+    font-size: 3em;
+}
+
+#contact {
+    padding-bottom: 60px;
+}
+
+#contact h1{
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
 }
