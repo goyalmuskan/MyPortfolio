@@ -335,7 +335,7 @@ html,body {
 #about .about p{
     padding-top: 15px;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.651);
+    color: rgba(0, 0, 0, 0.582);
     word-spacing: 3.5px;
 }
 
@@ -343,4 +343,63 @@ html,body {
     color: rgba(0, 0, 0, 0.815);
     text-decoration: underline;
     text-transform: uppercase;
+}
+
+.social-media {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social-media .fa:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+    color: white;
+}
+
+.social-media img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-envelope {
+    border-radius: 50%;
+    background-color: rgba(211, 21, 21, 0.836);
+    color: white;
+    font-size: 28px;
+    padding: 11px 10.5px;
+}
+
+.fa-linkedin {
+    border-radius: 50%;
+    background-color: #007bb5;
+    color: white;
+    font-size: 30px;
+    padding: 10px 10.5px;
+}
+
+.fa-instagram {
+    background: linear-gradient(to bottom, #a119f0, #ff2fa8, #e7f706); 
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    padding: 10px 10.5px;
+}
+
+.fa-facebook {
+    border-radius: 50%;
+    background-color: #3B5998;
+    color: white;
+    font-size: 29px;
+    padding: 10px 15.5px;
+}
+
+.social-media img{
+    margin-top: -14px;
+    width: 48.5px;
 }
