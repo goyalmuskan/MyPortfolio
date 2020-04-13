@@ -14,7 +14,7 @@
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body>
+<body onLoad="typeWriter()">
     <nav id="navbar" class="">
         <div class="nav-wrapper">
           <!-- Navbar Links -->
@@ -43,14 +43,14 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
     </div>
-    <script  src="scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 
     <section id="about">
         <div class="container pb-5">
             <div class="row">
                 <div class="col-lg-6 col-md-8 col-sm-12 hello">
                     <div class="about-heading">Hello, I'm</div>
-                    <h2>Muskan Goyal.</h2>
+                    <h2 id="demo"></h2>
                     <p>Welcome to my Portfolio!</p>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-12 pt-5 about">
@@ -70,6 +70,7 @@
             </div>
         </div>
     </section>
+    <script src="scripts/name.js"></script>
 
     <section id="skills">
         <div class="container pt-5">
@@ -140,13 +141,36 @@
     </section>
 
     <section id="contact">
-        <div class="container pt-5">
+        <div class="container pt-4">
             <h1>Drop a Message!</h1>
-            <hr class="pb-5" width="30%">
-            <div class="row">
+            <hr class="pb-3" width="30%">
+            <h4 class="pb-5">I'd love to hear from you </h4>
+            <div class="row form">
+                <div class="col-lg-12 pt-3">
+                    <form action="/action_page.php">
+                        <div class="row">
+                          <div class="col px-5 pt-3 pb-3">
+                            <input type="text" class="form-control no-border" id="name" placeholder="Name">
+                          </div>
+                          <div class="col px-5 pt-3 pb-3">
+                            <input type="email" class="form-control no-border" placeholder="Email Address" name="email">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col p-5">
+                                <textarea name="message" rows="4" class="form-control no-border" placeholder="Your Message" required></textarea>
+                            </div>
+                        </div>
+                        <center><button type="submit" class="btn mt-3 submit">Submit</button></center>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <hr>
+        <center><h5 class="footer">Made With ❤ by <a href="#about">MUSKAN GOYAL. </a></h5></center>
+    </footer>
 
 </body>
 </html>

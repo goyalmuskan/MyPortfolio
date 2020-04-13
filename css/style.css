@@ -1,7 +1,7 @@
 html,body {
     font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
-    background: linear-gradient(to right, #fffb000c, #8200b509 , #fd000011);
+    /* background: linear-gradient(to right, #fffb000c, #8200b509 , #fd000011); */
     color: black;
     letter-spacing: 1.9px;
     scroll-behavior: smooth;
@@ -351,7 +351,7 @@ section{
 #about .about p{
     padding-top: 15px;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.815);
+    color: black;
     word-spacing: 3.5px;
 }
 
@@ -440,4 +440,42 @@ section{
 #contact h1{
     font-weight: bold;
     font-family: 'Pacifico', cursive;
+}
+
+#contact h4{
+    color: black;
+}
+
+.no-border{
+    border: none;
+    border-bottom: 2.5px solid black;
+  }
+  
+.no-border:focus{
+    border: none;
+    border-bottom: 3.5px solid #3602f3;
+    box-shadow: none;
+    background-color: #f3f3f3a6;
+}
+
+.footer{
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+.submit {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    font-size: bold;
+}
+  
+.submit:hover {
+    background-color: #3602f3a8;
+    color: white;
+    font-size: bold;
 }
