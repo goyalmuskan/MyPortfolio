@@ -421,16 +421,20 @@ section{
     width: 48.5px;
 }
 
-#skills {
-    padding-bottom: 60px;
-}
-
 #skills h1{
     margin-top: 50px;
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-weight: bold;
     font-size: 3em;
+}
+
+#experience h1{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 3em;
 }
 
 #contact {
