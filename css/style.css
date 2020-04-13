@@ -1,11 +1,14 @@
 html,body {
-    font-family: 'Barlow', sans-serif;
-    /*background: linear-gradient(to right, #f09819, #ff512f);*/
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
-    height: 100%;
-    padding-top: 50px;
+    background: linear-gradient(to right, #fffb000c, #8200b509 , #fd000011);
     color: black;
     letter-spacing: 1.9px;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: auto;
 }
 
 * {
@@ -22,7 +25,7 @@ html,body {
     color: rgb(13, 26, 38);
     position: fixed;
     top: 0;
-    height: 70px;
+    height: 90px;
     line-height: 80px;
     width: 100vw;
     z-index: 10;
@@ -65,9 +68,9 @@ html,body {
   }
   
   #navbar li a {
-    color: rgb(13, 26, 38);
+    color: rgb(9, 16, 22);
     display: block;
-    font-size: 1.1em;
+    font-size: 1.2em;
     height: 50px;
     letter-spacing: 1.5px;
     margin: 0 20px;
@@ -130,7 +133,7 @@ html,body {
       display: block;
       position: fixed;
       right: 15px;
-      top: 20px;
+      top: 35px;
       height: 23px;
       width: 27px;
       z-index: 12;
@@ -261,7 +264,7 @@ html,body {
                      Responsive Mobile Menu 
     ======================================================*/
   .overlay-menu {
-    background: lightblue;
+    background: rgb(9, 185, 243);
     color: rgb(13, 26, 38);
     display: flex;
     align-items: center;
@@ -275,6 +278,7 @@ html,body {
     height: 100vh;
     -webkit-transition: transform 0.2s ease-out;
     transition: transform 0.2s ease-out;
+    z-index: 1;
   }
   
   .overlay-menu ul, .overlay-menu li {
@@ -303,24 +307,34 @@ html,body {
     transition: color 0.3s ease;
   }
 
+
+#about {
+    padding-top: 130px;
+}
+
 .about-heading{
     padding-top: 25%;
-    font-size: 7em;
+    font-size: 7.5em;
     font-weight: bolder;
 }
 
 #about h2{
     font-size: 4em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #about .hello p{
     padding-top: 25px;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.651);
+    color: rgba(0, 0, 0, 0.822);
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 509px){
+    #about {
+        padding-top: 80px;
+    }
+
     .about-heading{
         padding-top: 25%;
         font-size: 4.7em;
@@ -335,13 +349,14 @@ html,body {
 #about .about p{
     padding-top: 15px;
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.582);
+    color: rgba(0, 0, 0, 0.815);
     word-spacing: 3.5px;
 }
 
 #about .about h6{   
     color: rgba(0, 0, 0, 0.815);
     text-decoration: underline;
+    text-underline-position: under;
     text-transform: uppercase;
 }
 
@@ -402,4 +417,15 @@ html,body {
 .social-media img{
     margin-top: -14px;
     width: 48.5px;
+}
+
+#skills {
+    padding-bottom: 60px;
+}
+
+#skills h1{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
