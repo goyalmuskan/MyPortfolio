@@ -334,16 +334,16 @@ section{
 
 @media only screen and (max-width: 509px){
     #about {
-        padding-top: 80px;
+        padding-top: 70px;
     }
 
     .about-heading{
         padding-top: 25%;
-        font-size: 4.7em;
+        font-size: 4.2em;
     }
     
     #about h2{
-        font-size: 2.8em;
+        font-size: 2.5em;
         font-weight: bold;
     }
 } 
