@@ -1,7 +1,8 @@
 html,body {
     font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
-    /* background: linear-gradient(to right, #fffb000c, #8200b509 , #fd000011); */
+    /*background: linear-gradient(to right, #fffb000c, #8200b509 , #fd000011);
+    background-attachment: fixed;*/
     color: black;
     letter-spacing: 1.9px;
     text-rendering: optimizelegibility;
@@ -11,6 +12,10 @@ html,body {
 
 section{
     height: auto;
+    /*background: linear-gradient(to right, #fffb008c, #8200b509 , #fd00004f);
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 1;*/    
 }
 
 * {
@@ -326,6 +331,9 @@ section{
     font-family: 'Pacifico', cursive;
 }
 
+.hello{
+  margin-top: 150px;
+}
 #about .hello p{
     padding-top: 25px;
     font-size: 20px;
@@ -333,12 +341,14 @@ section{
     font-weight: 500;
 }
 
+/*
 #about .hello img{
   width: 300px;
   border-radius: 10em;
   border: 0.5px solid black ;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+*/
 
 .about {
   margin-top: 48px;
@@ -457,7 +467,7 @@ section{
 }
 
 #contact {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 #contact h1{
@@ -551,6 +561,7 @@ section{
     padding: 10px;
     border: 0.5px solid #000000e0;
     height: 480px;
+    margin-bottom: 20px;
   }
 
   .skill2 {

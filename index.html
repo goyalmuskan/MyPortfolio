@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -19,10 +21,10 @@
         <div class="nav-wrapper">
           <!-- Navbar Links -->
           <ul id="menu">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" method="post">About</a></li>
+            <li><a href="#skills" method="post">Skills</a></li>
+            <li><a href="#experience" method="post">Experience</a></li>
+            <li><a href="#contact" method="post">Contact</a></li>
           </ul>
         </div>
     </nav>
@@ -52,15 +54,17 @@
                     <center>
                     <div class="about-heading">Hello, I'm</div>
                     <h2 id="demo"></h2>
+                    <!--
                     <br>
                     <img src="Images/me.jpeg">
+                    -->
                     <p>Welcome to my Portfolio!</p></center>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-12 about">
                     <h3 class="font-weight-bold">About Me</h3>
                     <p>I am Muskan, currently a Second-Year Undergrad, pursuing Computer Science and Engineering.</p>
                     <p>My field of interest is Web Development, UI/UX Designing and Competitive Programming.</p>
-                    <p>I am also an OpenSource enthusiast. I believe it is a beautiful way of collaborating. I am an active contributor in various projects, helping people improve their initiatives.</p>
+                    <p>I am also an OpenSource enthusiast. I believe it is a beautiful way of collaborating. I am an active contributor in various projects, helping people in their initiatives.</p>
                     <h6 class="font-weight-bold pt-5">Connect With Me :</h6>
                     <div class="social-media pt-3">
                         <a href="mailto:muskangoyal05@gmail.com" class="fa fa-envelope mr-2" aria-hidden="true"></a> 
@@ -180,7 +184,7 @@
 
             <div class="row" style="text-align: center;">
                 <div class="col-lg-6">
-                    <div class="skill1">
+                    <div class="skill1" data-aos="fade-right">
                     <h4 class="pb-4">Front End Development</h4>
                     <div class="progress my-4">
                         <div class="progress-bar" style="width:90%">HTML(90%)</div>
@@ -201,14 +205,14 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="skill2">
+                    <div class="skill2" data-aos="fade-left">
                     <h4 class="pb-4">Back End Development</h4>
                     <div class="progress my-4">
                         <div class="progress-bar" style="width:40%">Django(40%)</div>
                     </div>
                     </div>
 
-                    <div class="skill3">
+                    <div class="skill3" data-aos="fade-left">
                         <h4 class="pb-4">Programming Languages</h4>
                         <div class="progress my-4">
                             <div class="progress-bar" style="width:70%">Java(70%)</div>
@@ -231,12 +235,20 @@
             <h1 class="pt-5 pb-2">Experience</h1>
             <hr class="pb-5">
             <div class="row">
+                <div class="col-lg-12">
+                    <ul>
+                        <li>1</li>
+                        <li>1</li>
+                        <li>1</li> 
+
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="container pt-4">
+        <div class="container pt-5">
             <h1>Drop a Message!</h1>
             <hr class="pb-3" width="30%">
             <h4 class="pb-5">I'd love to hear from you </h4>
@@ -262,10 +274,14 @@
             </div>
         </div>
     </section>
+    
     <footer>
         <hr>
         <center><h5 class="footer">Made With ❤ by <a href="#about">MUSKAN GOYAL</a>.</h5></center>
     </footer>
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script><script  src="./script.js"></script>
+
+    
 
 </body>
 </html>
