@@ -1,8 +1,8 @@
 # MyPortfolio
 
-[Click here to view my Portfolio.]()
+[Click here to view my Portfolio.](https://goyalmuskan.github.io/MyPortfolio/index.html)
 
-- Made With ❤ by MUSKAN GOYAL.
+Made With ❤ by MUSKAN GOYAL.
 
 **Connect with me :**
 
