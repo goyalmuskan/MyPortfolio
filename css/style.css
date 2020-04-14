@@ -587,3 +587,18 @@ section{
     font-size: 15px;
     font-size: bold;
   }
+
+  [data-aos="example-anim3"] {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+  }
+  [data-aos="example-anim3"].aos-animate {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    opacity: 1;
+  }
