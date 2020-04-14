@@ -4,6 +4,8 @@ html,body {
     /* background: linear-gradient(to right, #fffb000c, #8200b509 , #fd000011); */
     color: black;
     letter-spacing: 1.9px;
+    text-rendering: optimizelegibility;
+    /*overflow: hidden;*/
     scroll-behavior: smooth;
 }
 
@@ -309,11 +311,10 @@ section{
 
 
 #about {
-    padding-top: 130px;
+    padding-top: 120px;
 }
 
 .about-heading{
-    padding-top: 25%;
     font-size: 6em;
     font-family: 'Pacifico', cursive;
     font-weight: bold;
@@ -331,6 +332,17 @@ section{
     color: rgba(0, 0, 0, 0.822);
     font-weight: 500;
 }
+
+#about .hello img{
+  width: 300px;
+  border-radius: 10em;
+  border: 2px solid black ;
+}
+
+.about {
+  margin-top: 48px;
+}
+
 
 @media only screen and (max-width: 509px){
     #about {
