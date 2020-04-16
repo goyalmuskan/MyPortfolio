@@ -551,9 +551,10 @@ section{
 }
   
 .submit:hover {
-    background-color: #3602f3a8;
+    background-color: #3602f3b4;
     color: white;
     font-size: bold;
+    transition: 0.3s;
 }
 
 
@@ -629,6 +630,41 @@ section{
     height: 40px;
     font-size: 15px;
     font-size: bold;
+  }
+
+  .exp-div {
+    padding-top: 40px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+  }
+
+  .bg1 {
+    background: #f3ef0342;
+  }
+
+  .bg2 {
+    background: #8200b536;
+  }
+
+  .bg3 {
+    background:  #fd00003f;
+  }
+
+  .post{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .exp-div .pos{
+    font-size: 20px;
+  }
+
+  .fa-user {
+    font-size: 60px;
+
   }
 
   [data-aos="example-anim3"] {
