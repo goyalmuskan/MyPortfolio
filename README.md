@@ -4,7 +4,7 @@ Hello,
 
 [Click here](https://goyalmuskan.github.io/MyPortfolio/index.html) to check my Portfolio.
 
-Made With ❤ by MUSKAN GOYAL.
+Made With :heart: by **MUSKAN GOYAL**.
 
 
 
