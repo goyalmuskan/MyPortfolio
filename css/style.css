@@ -444,6 +444,49 @@ section{
     width: 48.5px;
 }
 
+#education{
+  align-items: center;
+}
+
+#education .row {
+  width: 80%;
+}
+
+#education h1{
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+#education .edu-content{
+  align-items: left;
+  text-align: left;
+}
+
+#education .grad{
+  font-weight: 600;
+  font-size: 25px;
+  color: black;
+}
+
+.edu-content .year {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+.school {
+  font-size: 20px;
+}
+
+.vl {
+  padding: 1.5rem;
+  padding-left: 3rem;
+  border-left-width: 5px;
+  border-left-style: solid;
+  height: auto;
+  border-image: linear-gradient( to bottom, rgb(132, 0, 255), rgba(248, 5, 5, 0.651)) 1 100%;
+}
+
+
 #skills .row p{
   text-align: center;
   font-weight: bold;
