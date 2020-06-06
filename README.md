@@ -1,10 +1,10 @@
 # My Portfolio
 
-Hello,
+Hello, there this is a web version of my portfolio
 
 [Click here](https://goyalmuskan.github.io/MyPortfolio/index.html) to check my Portfolio.
 
-Made With ❤ by MUSKAN GOYAL.
+Made With :heart: by **MUSKAN GOYAL**.
 
 
 
